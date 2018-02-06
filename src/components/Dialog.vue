@@ -5,8 +5,6 @@
     <DialogForm></DialogForm>
     </span>
     <div slot="footer">
-      <!--<button @click="checkForm">Submit</button>-->
-      <!--&lt;!&ndash;<dialog-form :checkForm="checkForm"></dialog-form>&ndash;&gt;-->
       <button @click="closeAction">Cancel</button>
     </div>
   </modal>
@@ -23,6 +21,7 @@ export default {
 </script>
 <style>
 .modal-header {
+  background-color: lightsteelblue;
   padding: 5px 0px 5px 15px;
 }
 </style>
