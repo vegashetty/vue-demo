@@ -15,7 +15,7 @@ import Modal from 'modal-vue'
 import DialogForm from '../components/DialogForm.vue'
 
 export default {
-  props: ['showModal', 'closeAction', 'checkForm'],
+  props: ['showModal', 'closeAction'],
   components: {Modal, DialogForm}
 }
 </script>
